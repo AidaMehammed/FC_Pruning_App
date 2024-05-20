@@ -1,0 +1,30 @@
+
+model: mnist_model.py
+train_dataset: "mnist_train.pth"
+test_dataset: "mnist_test.pth"
+
+batch_size: 256
+learning_rate: 0.001
+
+max_iter: 1
+
+
+
+# Pruning variables
+reference_model: mnist_model.py
+example_input: (32, 3, 32, 32)
+ignored_layers: None
+epochs: 0
+learning_rate_finetune: 0.001
+
+pruning_ratio: 0.5
+iterative_steps: 1
+imp: tp.pruner.importance.MagnitudeImportance(p=2) #  options listed in README
+
+
+
+
+
+
+
+

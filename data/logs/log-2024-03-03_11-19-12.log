@@ -1,0 +1,100 @@
+{"component":"MAIN","instance":"","level":"info","msg":"Controller start","time":"2024-03-03T11:19:12Z"}
+{"component":"MAIN","instance":"","level":"info","msg":"Mode: Dockerized (isolated)","time":"2024-03-03T11:19:12Z"}
+{"component":"MAIN","instance":"","level":"info","msg":"Configuration value 'HasGPU': false","time":"2024-03-03T11:19:12Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Removing leftover Docker entities for label: fc-controller-label","time":"2024-03-03T11:19:12Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Removed 0 of 0 leftover containers","time":"2024-03-03T11:19:12Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Removed 2 of 2 leftover volumes","time":"2024-03-03T11:19:12Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Removed 2 of 2 leftover networks","time":"2024-03-03T11:19:12Z"}
+{"component":"GLOBAL","instance":"","level":"info","msg":"Listening on port 9151","time":"2024-03-03T11:19:12Z"}
+{"component":"GLOBAL","instance":"","level":"info","msg":"Listening on port 9150","time":"2024-03-03T11:19:12Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:19:33Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:19:33Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464773","time":"2024-03-03T11:19:33Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464774","time":"2024-03-03T11:19:34Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:34Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:19:34Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:19:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:19:35Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:19:41Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:19:41Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464781","time":"2024-03-03T11:19:41Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464781","time":"2024-03-03T11:19:41Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:41Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:19:41Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:19:41Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:41Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:19:41Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:19:58Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:19:58Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464798","time":"2024-03-03T11:19:58Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464798","time":"2024-03-03T11:19:58Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:58Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:19:58Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:19:58Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:19:58Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:19:58Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:20:39Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:20:39Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464839","time":"2024-03-03T11:20:39Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464839","time":"2024-03-03T11:20:39Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:20:39Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:20:39Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:20:39Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:20:39Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:20:39Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Result directory changed to: /data/tests/results","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:21:35Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464895","time":"2024-03-03T11:21:35Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464895","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:35Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:21:35Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:21:35Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:21:49Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:21:49Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464909","time":"2024-03-03T11:21:49Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464909","time":"2024-03-03T11:21:49Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:49Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:21:49Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:21:50Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:50Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:21:50Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:21:59Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:21:59Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464919","time":"2024-03-03T11:21:59Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464919","time":"2024-03-03T11:21:59Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:59Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:21:59Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:21:59Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:21:59Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:21:59Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:22:07Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:22:07Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464927","time":"2024-03-03T11:22:07Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464927","time":"2024-03-03T11:22:07Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:07Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:22:07Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:22:08Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:08Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:22:08Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:22:08Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:22:08Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464928","time":"2024-03-03T11:22:08Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464928","time":"2024-03-03T11:22:08Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:08Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:22:08Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"","level":"info","msg":"Create new test","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Create volumes and containers...","time":"2024-03-03T11:22:09Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_input_0_1709464929","time":"2024-03-03T11:22:09Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Create volume test_1_output_0_1709464929","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Move data to workspace from /Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:09Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Move data to workspace","time":"2024-03-03T11:22:09Z"}
+{"component":"DOCKER","instance":"","level":"info","msg":"Attach to internal network","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"error","msg":"Error response from daemon: invalid mount config for type \"bind\": bind source path does not exist: /host_mnt/Users/aidamehammed/testMC/dl/data/data/sample_data","time":"2024-03-03T11:22:09Z"}
+{"component":"TESTBED","instance":"[Project: 1]","level":"info","msg":"Stopping test id: 1","time":"2024-03-03T11:22:09Z"}

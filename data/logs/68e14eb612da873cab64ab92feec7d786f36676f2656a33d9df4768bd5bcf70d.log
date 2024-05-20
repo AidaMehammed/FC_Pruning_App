@@ -1,0 +1,34 @@
+2024-01-28 18:14:51,882 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-01-28 18:14:51,883 INFO supervisord started with pid 7
+2024-01-28 18:14:52,888 INFO spawned: 'app' with pid 8
+2024-01-28 18:14:52,890 INFO spawned: 'nginx' with pid 9
+Bottle v0.12.25 server starting up (using WSGIRefServer())...
+Listening on http://localhost:5000/
+Hit Ctrl-C to quit.
+
+2024-01-28 18:14:54,748 INFO success: app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-01-28 18:14:54,748 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+[CTRL] POST /setup
+[Time: 28.01.24 18:14:55] [Level: info] id: 9a69e081e91c1d7f
+[Time: 28.01.24 18:14:55] [Level: info] coordinator: False
+[Time: 28.01.24 18:14:55] [Level: info] clients: ['e6ff8e142e02cac4', '9a69e081e91c1d7f']
+[Time: 28.01.24 18:14:55] [Level: info] state: initial
+[Time: 28.01.24 18:14:55] [Level: info] [State: initial] <class 'abc.ABCMeta'>
+[Time: 28.01.24 18:14:55] [Level: info] [State: initial] Reading training data ...
+127.0.0.1 - - [28/Jan/2024 18:14:55] "POST /api/setup HTTP/1.0" 200 0
+[Time: 28.01.24 18:14:55] [Level: info] Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/FeatureCloud/app/engine/app.py", line 251, in guarded_run
+    self.run()
+  File "/root/.local/lib/python3.8/site-packages/FeatureCloud/app/engine/app.py", line 270, in run
+    transition = self.current_state.run()
+  File "/app/states.py", line 154, in run
+    train_dataset = torch.load(f'{INPUT_DIR}/train_dataset.pth')
+  File "/root/.local/lib/python3.8/site-packages/torch/serialization.py", line 986, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/root/.local/lib/python3.8/site-packages/torch/serialization.py", line 435, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/root/.local/lib/python3.8/site-packages/torch/serialization.py", line 416, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/input/train_dataset.pth'
+
+127.0.0.1 - - [28/Jan/2024 18:14:55] "GET /api/status HTTP/1.0" 200 167
