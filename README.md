@@ -1,4 +1,4 @@
-# [FeatureCloud Model Pruning](https://featurecloud.ai/app/Pruning Image Classification)
+# [FeatureCloud Model Pruning](https://featurecloud.ai/app/fc-pruning)
 ### Classification with Pruning
 
 This app enables image classification application utilizing pruning techniques for model compression. The fc-pruning pip package can also be applied on other model architectures, while this App focuses on CNN. The application employs federated learning to train and compress deep neural network models, leveraging the [Torch-Pruning](https://github.com/VainF/Torch-Pruning/tree/master) library.
